@@ -12,7 +12,7 @@ if (!prefersReducedMotion && document.documentElement.classList.contains('intro-
       document.documentElement.classList.remove('intro-pending', 'intro-fading');
       document.documentElement.classList.add('intro-done');
     }, 650);
-  }, 7350);
+  }, 4350);
 }
 
 if (menuButton && navigation) {
