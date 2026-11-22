@@ -8,7 +8,7 @@
     {
       "date": "2026-11-22",
       "status": "STARTING POINT",
-      "title": "Python foundations",
+      "title": "Python foundations 1",
       "summary": "Get comfortable turning simple ideas into small programs.",
       "focus": ["Variables, types, and input/output", "Conditions, loops, and functions", "Short beginner exercises"],
       "checkpoint": "Write a few small Python programs and explain what each part does."
