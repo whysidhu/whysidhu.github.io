@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "pageTitle": "A learning curve, built step by step.",
+  "pageIntro": "A practical route from programming basics toward cloud and security, with small checkpoints along the way.",
+  "startingPoint": "Early-stage Python learner, exploring computer science, Linux, networking, cloud, and security.",
+  "scheduleNote": "These suggested check-in dates begin on 22 Nov 2026 and repeat about every four weeks. They are flexible markers, not deadlines; adjust them around schoolwork and exams.",
+  "stages": [
+    {
+      "date": "2026-11-22",
+      "status": "STARTING POINT",
+      "title": "Python foundations",
+      "summary": "Get comfortable turning simple ideas into small programs.",
+      "focus": ["Variables, types, and input/output", "Conditions, loops, and functions", "Short beginner exercises"],
+      "checkpoint": "Write a few small Python programs and explain what each part does."
+    },
+    {
+      "date": "2026-12-20",
+      "status": "PLANNED",
+      "title": "Build a steady practice",
+      "summary": "Use repetition to make the programming basics feel familiar.",
+      "focus": ["Lists and dictionaries", "Reading errors and debugging", "Git basics and a simple README"],
+      "checkpoint": "Save a handful of small exercises in a clearly organized repository."
+    },
+    {
+      "date": "2027-01-17",
+      "status": "PLANNED",
+      "title": "Linux and systems",
+      "summary": "Learn how to navigate a computer from the command line and see how its parts fit together.",
+      "focus": ["Files, directories, and permissions", "Processes and shell commands", "Git from the terminal"],
+      "checkpoint": "Complete a short set of repeatable command-line tasks and document them."
+    },
+    {
+      "date": "2027-02-14",
+      "status": "PLANNED",
+      "title": "Networking fundamentals",
+      "summary": "Understand the basic ideas behind how devices and websites communicate.",
+      "focus": ["IP addresses and ports", "DNS and HTTP", "Simple network diagrams"],
+      "checkpoint": "Trace what happens when a browser opens a website and explain it simply."
+    },
+    {
+      "date": "2027-03-14",
+      "status": "PLANNED",
+      "title": "Security foundations",
+      "summary": "Build safe, practical security habits on top of systems and networking knowledge.",
+      "focus": ["Authentication and permissions", "Common web security concepts", "Beginner exercises in safe learning labs"],
+      "checkpoint": "Write a short security note explaining one concept and how to reduce its risk."
+    },
+    {
+      "date": "2027-04-11",
+      "status": "PLANNED",
+      "title": "Cloud fundamentals",
+      "summary": "Explore the building blocks that run applications and services in the cloud.",
+      "focus": ["Compute and storage", "Cloud networking and identity", "Logs, costs, and safe configuration"],
+      "checkpoint": "Follow a beginner guide to deploy a small project and document each step."
+    },
+    {
+      "date": "2027-05-09",
+      "status": "PLANNED",
+      "title": "Build, reflect, and share",
+      "summary": "Bring one area of curiosity together in a project small enough to finish and explain.",
+      "focus": ["Choose a focused project question", "Build and write a clear README", "Capture lessons and next steps"],
+      "checkpoint": "Publish one finished learning project with an honest account of what you learned."
+    }
+  ]
+}
