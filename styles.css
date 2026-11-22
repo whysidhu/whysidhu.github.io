@@ -42,3 +42,6 @@ body{transition:background-color .35s ease,color .35s ease}.hero h1,.intro-grid 
 
 .button-secondary{border:1px solid var(--line);color:var(--text);background:rgba(255,255,255,.035);transition:transform .25s,border-color .25s,background .25s}.button-secondary:hover{transform:translateY(-3px);border-color:var(--blue);background:rgba(255,145,90,.08)}.project-video{position:relative;z-index:1;display:block;width:min(86%,720px);aspect-ratio:16/9;object-fit:contain;border:1px solid rgba(255,180,130,.24);background:#090807;box-shadow:0 24px 60px #09070577}.project-visual{min-height:440px}.project-stamp{z-index:2}
 @media(max-width:760px){.hero-actions{gap:10px}.hero-actions .button{padding:10px 12px;font-size:10px;gap:9px}.project-visual{min-height:250px}.project-video{width:90%}}
+
+/* Keep decorative overscan from creating a sideways scroll area in iOS Safari. */
+html,body{width:100%;max-width:100%;overflow-x:hidden}
