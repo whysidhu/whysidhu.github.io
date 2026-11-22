@@ -5,6 +5,16 @@ const themeLabel = document.querySelector('.theme-label');
 const pageHeader = document.querySelector('.site-header');
 const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
+if (!prefersReducedMotion && document.documentElement.classList.contains('intro-pending')) {
+  window.setTimeout(() => {
+    document.documentElement.classList.add('intro-fading');
+    window.setTimeout(() => {
+      document.documentElement.classList.remove('intro-pending', 'intro-fading');
+      document.documentElement.classList.add('intro-done');
+    }, 650);
+  }, 1850);
+}
+
 if (menuButton && navigation) {
   const closeMenu = () => {
     menuButton.setAttribute('aria-expanded', 'false');
