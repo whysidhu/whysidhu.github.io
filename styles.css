@@ -44,4 +44,7 @@ body{transition:background-color .35s ease,color .35s ease}.hero h1,.intro-grid 
 @media(max-width:760px){.hero-actions{gap:10px}.hero-actions .button{padding:10px 12px;font-size:10px;gap:9px}.project-visual{min-height:250px}.project-video{width:90%}}
 
 /* Keep decorative overscan from creating a sideways scroll area in iOS Safari. */
-html,body{width:100%;max-width:100%;overflow-x:hidden}
+html,body{width:100%;max-width:100%;overflow-x:hidden!important;overscroll-behavior-x:none}
+#main{max-width:100%;overflow-x:hidden}
+
+@media(max-width:760px){.hero-backdrop-letter{right:0;font-size:clamp(280px,100vw,500px)}}
